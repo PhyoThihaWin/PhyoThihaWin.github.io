@@ -479,6 +479,13 @@ mark,
   height: auto;
 }
 
+.center-cropped {
+  object-fit: cover; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 270px;
+  width: 100%;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -2438,7 +2445,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #fed136;
+  background-color: #fbbc05;
   border-color: #fed136;
 }
 .btn-primary:hover {
@@ -9775,7 +9782,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #fbbc05 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10162,6 +10169,7 @@ header.masthead .masthead-heading {
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 5px 6px 18px #e1e1e1;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
